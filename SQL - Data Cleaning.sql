@@ -116,7 +116,7 @@ select owneraddress1, ownercity, ownerstate
 from nashvillehousing
 
 
--- 4) CHange Y/N to Yes/No in 'Sold as Vacant' Field
+-- 4) Change Y/N to Yes/No in 'Sold as Vacant' Field
 
 select distinct(SoldAsVacant), count(SoldAsVacant)
 from nashvillehousing
